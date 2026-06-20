@@ -1,0 +1,24 @@
+# Workflow
+name: Hello
+# On tells when the workflow should run
+on:
+  workflow_dispatch:
+# Job tells what the workflow should do
+
+jobs:
+  say-hello:
+  runs-on: ubuntu-latest
+  steps:
+    - name: Say hello to everyone
+      run: echo "Hello Dosto"
+
+
+# Workflow
+# Workflow should have the nane
+# Jobs
+# Should be inside the workflow
+#jobs:  
+# Steps
+# Should be inside the job
+# Actions
+# Should be inside the steps
