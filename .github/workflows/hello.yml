@@ -7,14 +7,14 @@ on:
 
 jobs:
   say-hello:
-  runs-on: ubuntu-latest
-  steps:
-    - name: Say hello to everyone
-      run: echo "Hello Dosto"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Dosto"
 
 
 # Workflow
-# Workflow should have the nane
+# Workflow should have the name
 # Jobs
 # Should be inside the workflow
 #jobs:  
