@@ -9,4 +9,8 @@ jobs:
           - name: Setup Node js
             uses: actions/setup-node@v6
             with:
-              node-version: '15'    
+              node-version: '15'
+              
+          - name: Node js installation
+            run: npm i
+            run: echo "complete"
