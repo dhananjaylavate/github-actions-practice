@@ -1,0 +1,13 @@
+name: demo
+
+on:
+    push
+jobs:
+    job1:
+        runs-on: ubuntu-latest
+        steps:
+            - name: install node js
+              run: npm install
+            
+            - name: Installation complete
+              run: echo "Installation Completed"
