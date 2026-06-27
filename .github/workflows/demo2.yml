@@ -12,5 +12,4 @@ jobs:
               node-version: '15'
               
           - name: Node js installation
-            run: npm i
-            run: echo "complete"
+            run: npm i && echo "complete"
