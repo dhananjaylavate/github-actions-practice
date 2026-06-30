@@ -1,0 +1,14 @@
+name: Day 39
+
+on:
+    push:
+
+jobs:
+    greet:
+        runs-on: ubuntu-latest
+        steps:
+            - name : Checkout the code using actions/checkout
+              uses: actions/checkout@v7
+            
+            - name : Print The hello Message
+              run : echo "Hello from GitHub Actions!"
