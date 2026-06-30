@@ -29,6 +29,18 @@ jobs:
               run: |
                 echo "Branch: ${{ github.ref_name }}"
 
+    list-files-in-repo:
+        runs-on: ubuntu-latest
+        steps:
+            - name : List the files
+              run: ls -a
+
+            - name : find the files
+              run: |
+                echo "Finding the files"
+                find .
+
+
 
 
 
