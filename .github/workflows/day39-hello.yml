@@ -21,6 +21,14 @@ jobs:
 
             - name : Print formatted date and time
               run: date +"%Y-%m-%d %H:%M:%S"
+    
+    print-branch-name:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Print the name of the branch that triggered the run
+              run: |
+                echo "Branch: ${{ github.ref_name }}"
+
 
 
 
