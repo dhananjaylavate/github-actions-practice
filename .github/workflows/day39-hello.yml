@@ -35,7 +35,7 @@ jobs:
 
             - name : Checkout the code
               uses: actions/checkout@v7
-              
+
             - name : List the files
               run: ls -a
 
@@ -43,6 +43,13 @@ jobs:
               run: |
                 echo "Finding the files"
                 find .
+
+    print-the-runners-os:
+        runs-on: ubuntu-latest
+        steps:
+            - name : print the runner os
+              run: |
+                echo "Runner OS: ${{ runner.os }}"
 
 
 
