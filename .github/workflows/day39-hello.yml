@@ -20,8 +20,8 @@ jobs:
               run: date
 
             - name : Print formatted date and time
-              run: date + "%Y-%m-%d %H:%M:%S"
+              run: date +"%Y-%m-%d %H:%M:%S"
 
-              
+
 
 
